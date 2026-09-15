@@ -1,0 +1,2 @@
+# Sirius-Bot
+Chatgpt bot
