@@ -54,11 +54,11 @@ from telegram.ext import (
 # bilan qo'shing: BOT_TOKEN, GEMINI_API_KEY, ADMIN_IDS
 # Railway ishga tushganda ularni avtomatik shu yerga joylaydi.
 # ==========================================================
-BOT_TOKEN = os.getenv("BOT_TOKEN", "BU_YERGA_TELEGRAM_TOKENINGIZNI_YOZING")
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "BU_YERGA_GEMINI_KALITINGIZNI_YOZING")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "7977593413:AAHjX2DVDjOnre2POF-CeLgI-HaA7JS0sME")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "AQ.Ab8RN6IGgpl4MbT-zkmMF0bfyUpSFCt38uq3FWdio4E3G3k_MA")
 
 # Admin(lar) Telegram ID raqami(lari). Bir nechta bo'lsa vergul bilan ajrating.
-ADMIN_IDS_RAW = os.getenv("ADMIN_IDS", "BU_YERGA_OZINGIZNING_TELEGRAM_ID_RAQAMINGIZNI_YOZING")
+ADMIN_IDS_RAW = os.getenv("ADMIN_IDS", "6918448016")
 
 ADMIN_IDS = set()
 for part in ADMIN_IDS_RAW.split(","):
